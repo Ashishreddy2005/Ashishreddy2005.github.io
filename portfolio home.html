@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hi, I'm Ashish Reddy</h1>
+        <p>Web Developer | Designer | Creator</p>
+        <button id="themeToggle">Switch Theme</button>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I build modern and interactive websites.</p>
+
+        <button id="revealBtn">Show Hidden Info</button>
+
+        <div id="hiddenInfo" class="hidden">
+            <p>🎉 Surprise! Here is some hidden data about me:</p>
+            <ul>
+                <li>I love JavaScript animations</li>
+                <li>I enjoy building intuitive UI/UX</li>
+                <li>I create content on web development</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A modern website with animations and transitions.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Interactive portfolio with dynamic theme switcher.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
